@@ -29,6 +29,7 @@ ul {
     background-color: #1F2937;
     flex: 1;
     height: 90px;
+
 }
 .logo, .nav{
     display:flex; 
@@ -91,7 +92,7 @@ ul {
 }
 
 .proj-title{
-    margin: 50px 0 ;
+    margin: 10px 0 25px 0;
 }
 .proj-title h2 {
     font-size: 36px;
@@ -104,7 +105,14 @@ ul {
     flex-direction: row;
     gap: 60px;
 }
-.proj-img {
+
+.img{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.img-border {
     border: #3882f6 solid;
     width: 200px;
     height: 200px;
@@ -115,4 +123,10 @@ ul {
     justify-content: center;
     align-items: center;
     /* End of remove */
+}
+
+.img-subtext {
+    padding-top: 10px;
+    text-align: center;
+    color: #1F2937;
 }
