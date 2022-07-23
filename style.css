@@ -1,9 +1,11 @@
 body {
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .body {
     display: flex;
+    flex-direction: column;
     border-spacing: 25px;
 }
 
@@ -18,13 +20,15 @@ ul {
     padding: 0;
 }
 
+.header {
+    padding: 0 200px;
+}
 
 .header, .logo, .nav{
     display:flex; 
     background-color: #1F2937;
     flex: 1;
     height: 90px;
-    padding: 0 25px;
 }
 .logo, .nav{
     display:flex; 
@@ -34,15 +38,46 @@ ul {
 .logo {
     align-items: center;
     font-size: 32px;
-    font-style: #f9faf8;
+
+}
+
+.logo a {
+    color:#f9faf8;;
 }
 
 .nav li {
     display: inline;
+    padding: 0 10px;
 }
 
 .nav {
     align-items: center;
     justify-content: flex-end;
-    padding: 0
+}
+
+.nav a {
+    color: #e5e7eb;
+}
+
+.hero {
+    height: 500px;
+    padding: 0 200px;
+    display: flex;
+    align-items: center;
+    background-color: #1F2937;
+    flex: 1 0 auto
+}
+
+.hero h1 {
+    color:#f9faf8;
+    font-size: 48px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-text {
+    width:50%
 }
