@@ -161,7 +161,6 @@ ul {
 
 .signup{
     height: 300px;
-    border: #1F2937 solid;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -196,4 +195,13 @@ ul {
 .contact-text {
     margin-right: auto;
     padding-left: 50px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #f9faf8;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
